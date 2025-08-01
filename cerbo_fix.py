@@ -6,7 +6,7 @@ import json
 import paho.mqtt.client as mqtt
 import sys
 
-# Read VRM ID from the command line
+# Read VRM ID & VRM ACCOUNT from the command line
 
 if len(sys.argv) == 3:
     print("\n----------")
