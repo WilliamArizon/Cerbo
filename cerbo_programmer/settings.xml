@@ -1,0 +1,1003 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Settings version="17" unique-id="c0619ab83634">
+  <Alarm>
+    <Audible type="i" default="1" silent="False">1</Audible>
+    <System>
+      <GridLost type="i" min="0" max="1" default="0" silent="False">0</GridLost>
+    </System>
+    <Vebus>
+      <HighDcCurrent type="i" min="0" max="2" default="1" silent="False">1</HighDcCurrent>
+      <HighDcRipple type="i" min="0" max="2" default="1" silent="False">1</HighDcRipple>
+      <HighDcVoltage type="i" min="0" max="2" default="1" silent="False">1</HighDcVoltage>
+      <HighTemperature type="i" min="0" max="2" default="1" silent="False">1</HighTemperature>
+      <InverterOverload type="i" min="0" max="2" default="1" silent="False">1</InverterOverload>
+      <LowBattery type="i" min="0" max="2" default="1" silent="False">1</LowBattery>
+      <TemperatureSenseError type="i" min="0" max="2" default="1" silent="False">1</TemperatureSenseError>
+      <VeBusError type="i" min="0" max="2" default="2" silent="False">2</VeBusError>
+      <VoltageSenseError type="i" min="0" max="2" default="1" silent="False">1</VoltageSenseError>
+    </Vebus>
+  </Alarm>
+  <Ble>
+    <Service>
+      <Pincode type="s" default="844342" silent="False">844342</Pincode>
+    </Service>
+  </Ble>
+  <CGwacs>
+    <AcExportLimit type="i" default="-1" silent="False">-1</AcExportLimit>
+    <AcInputLimit type="i" default="-1" silent="False">-1</AcInputLimit>
+    <AcPowerSetPoint type="f" min="-1000000.0" max="1000000.0" default="50.0" silent="False">50.0</AcPowerSetPoint>
+    <AlwaysPeakShave type="i" min="0" max="1" default="0" silent="False">0</AlwaysPeakShave>
+    <BatteryLife>
+      <DischargedTime type="i" default="0" silent="True">0</DischargedTime>
+      <Flags type="i" default="0" silent="True">0</Flags>
+      <MinimumSocLimit type="f" min="0.0" max="100.0" default="10.0" silent="False">10.0</MinimumSocLimit>
+      <Schedule>
+        <Charge>
+          <_0>
+            <AllowDischarge type="i" min="0" max="1" default="0" silent="False">0</AllowDischarge>
+            <Day type="i" min="-11" max="11" default="-7" silent="False">-7</Day>
+            <Duration type="i" default="0" silent="False">0</Duration>
+            <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+            <Start type="i" default="0" silent="False">0</Start>
+          </_0>
+          <_1>
+            <AllowDischarge type="i" min="0" max="1" default="0" silent="False">0</AllowDischarge>
+            <Day type="i" min="-11" max="11" default="-7" silent="False">-7</Day>
+            <Duration type="i" default="0" silent="False">0</Duration>
+            <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+            <Start type="i" default="0" silent="False">0</Start>
+          </_1>
+          <_2>
+            <AllowDischarge type="i" min="0" max="1" default="0" silent="False">0</AllowDischarge>
+            <Day type="i" min="-11" max="11" default="-7" silent="False">-7</Day>
+            <Duration type="i" default="0" silent="False">0</Duration>
+            <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+            <Start type="i" default="0" silent="False">0</Start>
+          </_2>
+          <_3>
+            <AllowDischarge type="i" min="0" max="1" default="0" silent="False">0</AllowDischarge>
+            <Day type="i" min="-11" max="11" default="-7" silent="False">-7</Day>
+            <Duration type="i" default="0" silent="False">0</Duration>
+            <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+            <Start type="i" default="0" silent="False">0</Start>
+          </_3>
+          <_4>
+            <AllowDischarge type="i" min="0" max="1" default="0" silent="False">0</AllowDischarge>
+            <Day type="i" min="-11" max="11" default="-7" silent="False">-7</Day>
+            <Duration type="i" default="0" silent="False">0</Duration>
+            <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+            <Start type="i" default="0" silent="False">0</Start>
+          </_4>
+        </Charge>
+      </Schedule>
+      <SocLimit type="f" min="0.0" max="100.0" default="10.0" silent="True">10.0</SocLimit>
+      <State type="i" default="1" silent="True">1</State>
+    </BatteryLife>
+    <BatteryUse type="i" min="0" max="1" default="0" silent="False">0</BatteryUse>
+    <Hub4Mode type="i" default="1" silent="False">1</Hub4Mode>
+    <MaxChargePercentage type="f" min="0.0" max="100.0" default="100.0" silent="False">100.0</MaxChargePercentage>
+    <MaxChargePower type="f" min="-1.0" max="1000000.0" default="-1.0" silent="False">-1.0</MaxChargePower>
+    <MaxDischargePercentage type="f" min="0.0" max="100.0" default="100.0" silent="False">100.0</MaxDischargePercentage>
+    <MaxDischargePower type="f" min="-1.0" max="1000000.0" default="-1.0" silent="False">-1.0</MaxDischargePower>
+    <MaxFeedInPower type="f" min="-1.0" max="1000000.0" default="-1.0" silent="False">-1.0</MaxFeedInPower>
+    <OvervoltageFeedIn type="i" default="0" silent="False">0</OvervoltageFeedIn>
+    <PreventFeedback type="i" default="0" silent="False">0</PreventFeedback>
+    <PvPowerSetpointOffset type="i" default="200" silent="False">200</PvPowerSetpointOffset>
+    <RunWithoutGridMeter type="i" default="0" silent="False">0</RunWithoutGridMeter>
+  </CGwacs>
+  <CanBms>
+    <SocketcanVecan1>
+      <CustomName type="s" default="" silent="False"></CustomName>
+      <ProductId type="i" default="0" silent="False">0</ProductId>
+    </SocketcanVecan1>
+  </CanBms>
+  <Canbus>
+    <vecan0>
+      <Profile type="i" min="0" max="8" default="1" silent="False">1</Profile>
+    </vecan0>
+    <vecan1>
+      <Profile type="i" min="0" max="8" default="3" silent="False">3</Profile>
+    </vecan1>
+  </Canbus>
+  <Devices>
+    <adc_builtin_tank_0>
+      <Alarms>
+        <High>
+          <Active type="i" min="0" max="100" default="90" silent="False">90</Active>
+          <Delay type="i" min="0" max="60" default="5" silent="False">5</Delay>
+          <Enable type="i" min="0" max="1" default="0" silent="False">0</Enable>
+          <Restore type="i" min="0" max="100" default="80" silent="False">80</Restore>
+        </High>
+        <Low>
+          <Active type="i" min="0" max="100" default="10" silent="False">10</Active>
+          <Delay type="i" min="0" max="60" default="30" silent="False">30</Delay>
+          <Enable type="i" min="0" max="1" default="0" silent="False">0</Enable>
+          <Restore type="i" min="0" max="100" default="15" silent="False">15</Restore>
+        </Low>
+      </Alarms>
+      <Capacity type="f" min="0.0" max="1000.0" default="0.20000000298023224" silent="False">0.20000000298023224</Capacity>
+      <ClassAndVrmInstance type="s" default="tank:20" silent="False">tank:23</ClassAndVrmInstance>
+      <CustomName type="s" default="" silent="False">Waste Water 1</CustomName>
+      <FilterLength type="i" min="1" max="60" default="10" silent="False">10</FilterLength>
+      <FluidType2 type="i" min="0" max="2147483644" default="0" silent="False">2</FluidType2>
+      <Function type="i" min="0" max="1" default="0" silent="False">1</Function>
+      <RawValueEmpty type="f" min="0.0" max="300.0" default="0.0" silent="False">0.0</RawValueEmpty>
+      <RawValueFull type="f" min="0.0" max="300.0" default="0.0" silent="False">180.0</RawValueFull>
+      <Shape type="s" default="" silent="False"></Shape>
+      <Standard2 type="i" min="0" max="2" default="0" silent="False">2</Standard2>
+    </adc_builtin_tank_0>
+    <adc_builtin_tank_1>
+      <Alarms>
+        <High>
+          <Active type="i" min="0" max="100" default="90" silent="False">90</Active>
+          <Delay type="i" min="0" max="60" default="5" silent="False">5</Delay>
+          <Enable type="i" min="0" max="1" default="0" silent="False">0</Enable>
+          <Restore type="i" min="0" max="100" default="80" silent="False">80</Restore>
+        </High>
+        <Low>
+          <Active type="i" min="0" max="100" default="10" silent="False">10</Active>
+          <Delay type="i" min="0" max="60" default="30" silent="False">30</Delay>
+          <Enable type="i" min="0" max="1" default="0" silent="False">0</Enable>
+          <Restore type="i" min="0" max="100" default="15" silent="False">15</Restore>
+        </Low>
+      </Alarms>
+      <Capacity type="f" min="0.0" max="1000.0" default="0.20000000298023224" silent="False">0.20000000298023224</Capacity>
+      <ClassAndVrmInstance type="s" default="tank:20" silent="False">tank:22</ClassAndVrmInstance>
+      <CustomName type="s" default="" silent="False">Fresh Water 3</CustomName>
+      <FilterLength type="i" min="1" max="60" default="10" silent="False">10</FilterLength>
+      <FluidType2 type="i" min="0" max="2147483644" default="0" silent="False">1</FluidType2>
+      <Function type="i" min="0" max="1" default="0" silent="False">1</Function>
+      <RawValueEmpty type="f" min="0.0" max="300.0" default="0.0" silent="False">0.0</RawValueEmpty>
+      <RawValueFull type="f" min="0.0" max="300.0" default="0.0" silent="False">180.0</RawValueFull>
+      <Shape type="s" default="" silent="False"></Shape>
+      <Standard2 type="i" min="0" max="2" default="0" silent="False">2</Standard2>
+    </adc_builtin_tank_1>
+    <adc_builtin_tank_2>
+      <Alarms>
+        <High>
+          <Active type="i" min="0" max="100" default="90" silent="False">90</Active>
+          <Delay type="i" min="0" max="60" default="5" silent="False">5</Delay>
+          <Enable type="i" min="0" max="1" default="0" silent="False">0</Enable>
+          <Restore type="i" min="0" max="100" default="80" silent="False">80</Restore>
+        </High>
+        <Low>
+          <Active type="i" min="0" max="100" default="10" silent="False">10</Active>
+          <Delay type="i" min="0" max="60" default="30" silent="False">30</Delay>
+          <Enable type="i" min="0" max="1" default="0" silent="False">0</Enable>
+          <Restore type="i" min="0" max="100" default="15" silent="False">15</Restore>
+        </Low>
+      </Alarms>
+      <Capacity type="f" min="0.0" max="1000.0" default="0.20000000298023224" silent="False">0.20000000298023224</Capacity>
+      <ClassAndVrmInstance type="s" default="tank:20" silent="False">tank:21</ClassAndVrmInstance>
+      <CustomName type="s" default="" silent="False">Fresh Water 2</CustomName>
+      <FilterLength type="i" min="1" max="60" default="10" silent="False">10</FilterLength>
+      <FluidType2 type="i" min="0" max="2147483644" default="0" silent="False">1</FluidType2>
+      <Function type="i" min="0" max="1" default="0" silent="False">1</Function>
+      <RawValueEmpty type="f" min="0.0" max="300.0" default="0.0" silent="False">0.0</RawValueEmpty>
+      <RawValueFull type="f" min="0.0" max="300.0" default="0.0" silent="False">180.0</RawValueFull>
+      <Shape type="s" default="" silent="False"></Shape>
+      <Standard2 type="i" min="0" max="2" default="0" silent="False">2</Standard2>
+    </adc_builtin_tank_2>
+    <adc_builtin_tank_3>
+      <Alarms>
+        <High>
+          <Active type="i" min="0" max="100" default="90" silent="False">90</Active>
+          <Delay type="i" min="0" max="60" default="5" silent="False">5</Delay>
+          <Enable type="i" min="0" max="1" default="0" silent="False">0</Enable>
+          <Restore type="i" min="0" max="100" default="80" silent="False">80</Restore>
+        </High>
+        <Low>
+          <Active type="i" min="0" max="100" default="10" silent="False">10</Active>
+          <Delay type="i" min="0" max="60" default="30" silent="False">30</Delay>
+          <Enable type="i" min="0" max="1" default="0" silent="False">0</Enable>
+          <Restore type="i" min="0" max="100" default="15" silent="False">15</Restore>
+        </Low>
+      </Alarms>
+      <Capacity type="f" min="0.0" max="1000.0" default="0.20000000298023224" silent="False">0.20000000298023224</Capacity>
+      <ClassAndVrmInstance type="s" default="tank:20" silent="False">tank:20</ClassAndVrmInstance>
+      <CustomName type="s" default="" silent="False">Fresh Water 1</CustomName>
+      <FilterLength type="i" min="1" max="60" default="10" silent="False">10</FilterLength>
+      <FluidType2 type="i" min="0" max="2147483644" default="0" silent="False">1</FluidType2>
+      <Function type="i" min="0" max="1" default="0" silent="False">1</Function>
+      <RawValueEmpty type="f" min="0.0" max="300.0" default="0.0" silent="False">0.0</RawValueEmpty>
+      <RawValueFull type="f" min="0.0" max="300.0" default="0.0" silent="False">180.0</RawValueFull>
+      <Shape type="s" default="" silent="False"></Shape>
+      <Standard2 type="i" min="0" max="2" default="0" silent="False">2</Standard2>
+    </adc_builtin_tank_3>
+    <adc_builtin_temp_0>
+      <ClassAndVrmInstance type="s" default="temperature:20" silent="False">temperature:23</ClassAndVrmInstance>
+      <CustomName type="s" default="" silent="False"></CustomName>
+      <FilterLength type="i" min="1" max="60" default="10" silent="False">10</FilterLength>
+      <Function type="i" min="0" max="1" default="0" silent="False">0</Function>
+      <Offset type="f" min="-100.0" max="100.0" default="0.0" silent="False">0.0</Offset>
+      <Scale type="f" min="0.10000000149011612" max="10.0" default="1.0" silent="False">1.0</Scale>
+      <TemperatureType2 type="i" min="0" max="6" default="0" silent="False">0</TemperatureType2>
+    </adc_builtin_temp_0>
+    <adc_builtin_temp_1>
+      <ClassAndVrmInstance type="s" default="temperature:20" silent="False">temperature:22</ClassAndVrmInstance>
+      <CustomName type="s" default="" silent="False"></CustomName>
+      <FilterLength type="i" min="1" max="60" default="10" silent="False">10</FilterLength>
+      <Function type="i" min="0" max="1" default="0" silent="False">0</Function>
+      <Offset type="f" min="-100.0" max="100.0" default="0.0" silent="False">0.0</Offset>
+      <Scale type="f" min="0.10000000149011612" max="10.0" default="1.0" silent="False">1.0</Scale>
+      <TemperatureType2 type="i" min="0" max="6" default="0" silent="False">0</TemperatureType2>
+    </adc_builtin_temp_1>
+    <adc_builtin_temp_2>
+      <ClassAndVrmInstance type="s" default="temperature:20" silent="False">temperature:21</ClassAndVrmInstance>
+      <CustomName type="s" default="" silent="False"></CustomName>
+      <FilterLength type="i" min="1" max="60" default="10" silent="False">10</FilterLength>
+      <Function type="i" min="0" max="1" default="0" silent="False">0</Function>
+      <Offset type="f" min="-100.0" max="100.0" default="0.0" silent="False">0.0</Offset>
+      <Scale type="f" min="0.10000000149011612" max="10.0" default="1.0" silent="False">1.0</Scale>
+      <TemperatureType2 type="i" min="0" max="6" default="0" silent="False">0</TemperatureType2>
+    </adc_builtin_temp_2>
+    <adc_builtin_temp_3>
+      <ClassAndVrmInstance type="s" default="temperature:20" silent="False">temperature:20</ClassAndVrmInstance>
+      <CustomName type="s" default="" silent="False"></CustomName>
+      <FilterLength type="i" min="1" max="60" default="10" silent="False">10</FilterLength>
+      <Function type="i" min="0" max="1" default="0" silent="False">0</Function>
+      <Offset type="f" min="-100.0" max="100.0" default="0.0" silent="False">0.0</Offset>
+      <Scale type="f" min="0.10000000149011612" max="10.0" default="1.0" silent="False">1.0</Scale>
+      <TemperatureType2 type="i" min="0" max="6" default="0" silent="False">0</TemperatureType2>
+    </adc_builtin_temp_3>
+    <digital_input_1>
+      <ClassAndVrmInstance type="s" default="digitalinput:1" silent="False">digitalinput:1</ClassAndVrmInstance>
+    </digital_input_1>
+    <digital_input_2>
+      <ClassAndVrmInstance type="s" default="digitalinput:2" silent="False">digitalinput:2</ClassAndVrmInstance>
+    </digital_input_2>
+    <digital_input_3>
+      <ClassAndVrmInstance type="s" default="digitalinput:3" silent="False">digitalinput:3</ClassAndVrmInstance>
+    </digital_input_3>
+    <digital_input_4>
+      <ClassAndVrmInstance type="s" default="digitalinput:4" silent="False">digitalinput:4</ClassAndVrmInstance>
+    </digital_input_4>
+    <evc_HQ2245THRAW>
+      <ClassAndVrmInstance type="s" default="evcharger:40" silent="False">evcharger:40</ClassAndVrmInstance>
+      <Enabled type="i" min="0" max="1" default="1" silent="False">0</Enabled>
+    </evc_HQ2245THRAW>
+    <vebus_ttyS4>
+      <CustomName type="s" default="" silent="False"></CustomName>
+    </vebus_ttyS4>
+  </Devices>
+  <DigitalInput>
+    <_1>
+      <AlarmSetting type="i" min="0" max="1" default="0" silent="False">0</AlarmSetting>
+      <Count type="i" min="0" max="2147483647" default="0" silent="True">0</Count>
+      <CustomName type="s" default="" silent="False"></CustomName>
+      <InvertAlarm type="i" min="0" max="1" default="0" silent="False">0</InvertAlarm>
+      <InvertTranslation type="i" min="0" max="1" default="0" silent="False">0</InvertTranslation>
+      <Multiplier type="f" min="0.0" max="1.0" default="0.001" silent="False">0.001</Multiplier>
+      <Type type="i" min="0" max="11" default="0" silent="False">0</Type>
+    </_1>
+    <_2>
+      <AlarmSetting type="i" min="0" max="1" default="0" silent="False">0</AlarmSetting>
+      <Count type="i" min="0" max="2147483647" default="0" silent="True">0</Count>
+      <CustomName type="s" default="" silent="False"></CustomName>
+      <InvertAlarm type="i" min="0" max="1" default="0" silent="False">0</InvertAlarm>
+      <InvertTranslation type="i" min="0" max="1" default="0" silent="False">0</InvertTranslation>
+      <Multiplier type="f" min="0.0" max="1.0" default="0.001" silent="False">0.001</Multiplier>
+      <Type type="i" min="0" max="11" default="0" silent="False">0</Type>
+    </_2>
+    <_3>
+      <AlarmSetting type="i" min="0" max="1" default="0" silent="False">0</AlarmSetting>
+      <Count type="i" min="0" max="2147483647" default="0" silent="True">0</Count>
+      <CustomName type="s" default="" silent="False"></CustomName>
+      <InvertAlarm type="i" min="0" max="1" default="0" silent="False">0</InvertAlarm>
+      <InvertTranslation type="i" min="0" max="1" default="0" silent="False">0</InvertTranslation>
+      <Multiplier type="f" min="0.0" max="1.0" default="0.001" silent="False">0.001</Multiplier>
+      <Type type="i" min="0" max="11" default="0" silent="False">0</Type>
+    </_3>
+    <_4>
+      <AlarmSetting type="i" min="0" max="1" default="0" silent="False">0</AlarmSetting>
+      <Count type="i" min="0" max="2147483647" default="0" silent="True">0</Count>
+      <CustomName type="s" default="" silent="False"></CustomName>
+      <InvertAlarm type="i" min="0" max="1" default="0" silent="False">0</InvertAlarm>
+      <InvertTranslation type="i" min="0" max="1" default="0" silent="False">0</InvertTranslation>
+      <Multiplier type="f" min="0.0" max="1.0" default="0.001" silent="False">0.001</Multiplier>
+      <Type type="i" min="0" max="11" default="0" silent="False">0</Type>
+    </_4>
+  </DigitalInput>
+  <DynamicEss>
+    <BatteryCapacity type="f" min="0.0" max="1000.0" default="0.0" silent="False">0.0</BatteryCapacity>
+    <BatteryChargeLimit type="f" min="-1.0" max="9999.9" default="-1.0" silent="False">-1.0</BatteryChargeLimit>
+    <BatteryDischargeLimit type="f" min="-1.0" max="9999.9" default="-1.0" silent="False">-1.0</BatteryDischargeLimit>
+    <FullChargeDuration type="i" min="-1" max="12" default="2" silent="False">2</FullChargeDuration>
+    <FullChargeInterval type="i" min="-1" max="99" default="14" silent="False">14</FullChargeInterval>
+    <GridExportLimit type="f" min="-1.0" max="9999.9" default="-1.0" silent="False">-1.0</GridExportLimit>
+    <GridImportLimit type="f" min="-1.0" max="9999.9" default="-1.0" silent="False">-1.0</GridImportLimit>
+    <Mode type="i" min="0" max="4" default="0" silent="False">0</Mode>
+    <OperatingMode type="i" min="-1" max="2" default="-1" silent="False">-1</OperatingMode>
+    <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+    <Schedule>
+      <_0>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_0>
+      <_1>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_1>
+      <_10>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_10>
+      <_11>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_11>
+      <_12>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_12>
+      <_13>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_13>
+      <_14>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_14>
+      <_15>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_15>
+      <_16>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_16>
+      <_17>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_17>
+      <_18>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_18>
+      <_19>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_19>
+      <_2>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_2>
+      <_20>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_20>
+      <_21>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_21>
+      <_22>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_22>
+      <_23>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_23>
+      <_24>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_24>
+      <_25>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_25>
+      <_26>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_26>
+      <_27>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_27>
+      <_28>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_28>
+      <_29>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_29>
+      <_3>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_3>
+      <_30>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_30>
+      <_31>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_31>
+      <_32>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_32>
+      <_33>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_33>
+      <_34>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_34>
+      <_35>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_35>
+      <_36>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_36>
+      <_37>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_37>
+      <_38>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_38>
+      <_39>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_39>
+      <_4>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_4>
+      <_40>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_40>
+      <_41>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_41>
+      <_42>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_42>
+      <_43>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_43>
+      <_44>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_44>
+      <_45>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_45>
+      <_46>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_46>
+      <_47>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_47>
+      <_5>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_5>
+      <_6>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_6>
+      <_7>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_7>
+      <_8>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_8>
+      <_9>
+        <AllowGridFeedIn type="i" min="0" max="1" default="0" silent="False">0</AllowGridFeedIn>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Flags type="i" min="0" max="1" default="0" silent="False">0</Flags>
+        <Restrictions type="i" min="0" max="3" default="0" silent="False">0</Restrictions>
+        <Soc type="i" min="0" max="100" default="100" silent="False">100</Soc>
+        <Start type="i" default="0" silent="False">0</Start>
+        <Strategy type="i" min="0" max="3" default="0" silent="False">0</Strategy>
+      </_9>
+    </Schedule>
+    <SystemEfficiency type="f" min="50.0" max="100.0" default="90.0" silent="False">90.0</SystemEfficiency>
+  </DynamicEss>
+  <Fronius>
+    <AutoScan type="i" default="1" silent="False">1</AutoScan>
+    <IPAddresses type="s" default="" silent="False"></IPAddresses>
+    <IdentifyBySerialNumber type="i" default="0" silent="False">0</IdentifyBySerialNumber>
+    <KnownIPAddresses type="s" default="" silent="False"></KnownIPAddresses>
+    <ModbusSlaveAddress type="i" default="126" silent="True">126</ModbusSlaveAddress>
+    <PortNumber type="i" default="80" silent="False">80</PortNumber>
+  </Fronius>
+  <Gps>
+    <Format type="i" default="0" silent="False">0</Format>
+    <SpeedUnit type="s" default="km/h" silent="False">km/h</SpeedUnit>
+  </Gps>
+  <Gui>
+    <AutoBrightness type="i" default="0" silent="False">0</AutoBrightness>
+    <BriefView>
+      <ShowPercentages type="i" min="0" max="1" default="0" silent="False">0</ShowPercentages>
+      <Unit type="i" min="0" max="2" default="2" silent="False">2</Unit>
+    </BriefView>
+    <ColorScheme type="i" min="0" max="2" default="0" silent="False">0</ColorScheme>
+    <DefaultOverview type="s" default="" silent="False">OverviewHub</DefaultOverview>
+    <DemoMode type="i" min="0" max="3" default="0" silent="False">0</DemoMode>
+    <DisplayOff type="i" default="600" silent="False">600</DisplayOff>
+    <ElectricPropulsionUI>
+      <Enabled type="i" min="0" max="1" default="0" silent="False">0</Enabled>
+    </ElectricPropulsionUI>
+    <ElectricalPowerIndicator type="i" min="0" max="1" default="0" silent="False">0</ElectricalPowerIndicator>
+    <Gauges>
+      <Ac>
+        <AcIn1>
+          <Consumption>
+            <Current>
+              <Max type="f" min="0.0" max="inf" default="0.0" silent="False">0.0</Max>
+            </Current>
+          </Consumption>
+        </AcIn1>
+        <AcIn2>
+          <Consumption>
+            <Current>
+              <Max type="f" min="0.0" max="inf" default="0.0" silent="False">0.0</Max>
+            </Current>
+          </Consumption>
+        </AcIn2>
+        <In>
+          <_0>
+            <Current>
+              <Max type="f" min="0.0" max="inf" default="0.0" silent="False">0.0</Max>
+              <Min type="f" min="-inf" max="0.0" default="0.0" silent="False">0.0</Min>
+            </Current>
+          </_0>
+          <_1>
+            <Current>
+              <Max type="f" min="0.0" max="inf" default="0.0" silent="False">0.0</Max>
+              <Min type="f" min="-inf" max="0.0" default="0.0" silent="False">0.0</Min>
+            </Current>
+          </_1>
+        </In>
+        <NoAcIn>
+          <Consumption>
+            <Current>
+              <Max type="f" min="0.0" max="inf" default="0.0" silent="False">0.0</Max>
+            </Current>
+          </Consumption>
+        </NoAcIn>
+      </Ac>
+      <AutoMax type="i" min="0" max="1" default="1" silent="False">1</AutoMax>
+      <Dc>
+        <Input>
+          <Power>
+            <Max type="f" min="0.0" max="inf" default="0.0" silent="False">0.0</Max>
+          </Power>
+        </Input>
+        <System>
+          <Power>
+            <Max type="f" min="0.0" max="inf" default="0.0" silent="False">0.0</Max>
+          </Power>
+        </System>
+      </Dc>
+      <MotorDrive>
+        <Power>
+          <Max type="f" min="0.0" max="inf" default="0.0" silent="False">0.0</Max>
+        </Power>
+        <RPM>
+          <Max type="f" min="0.0" max="inf" default="0.0" silent="False">0.0</Max>
+        </RPM>
+      </MotorDrive>
+      <Pv>
+        <Power>
+          <Max type="f" min="0.0" max="inf" default="0.0" silent="False">0.0</Max>
+        </Power>
+      </Pv>
+      <Speed>
+        <Max type="f" min="0.0" max="inf" default="0.0" silent="False">0.0</Max>
+      </Speed>
+    </Gauges>
+    <Language type="s" default="en" silent="False">en</Language>
+    <MobileOverview type="i" min="0" max="1" default="0" silent="False">1</MobileOverview>
+    <RunningVersion type="i" min="1" max="2" default="1" silent="False">1</RunningVersion>
+    <StartWithMenuView type="i" min="0" max="1" default="0" silent="True">1</StartWithMenuView>
+    <TanksOverview type="i" min="0" max="1" default="0" silent="False">1</TanksOverview>
+    <TouchEnabled type="i" min="0" max="1" default="1" silent="False">1</TouchEnabled>
+  </Gui>
+  <Gui2>
+    <BriefView>
+      <CenterService type="s" default="" silent="False"></CenterService>
+      <Level>
+        <_0 type="s" default="" silent="False"></_0>
+        <_1 type="s" default="" silent="False"></_1>
+        <_2 type="s" default="" silent="False"></_2>
+        <_3 type="s" default="" silent="False"></_3>
+      </Level>
+    </BriefView>
+    <OnBoarding type="i" default="0" silent="False">0</OnBoarding>
+    <StartPage type="i" default="0" silent="False">0</StartPage>
+    <StartPageName type="s" default="" silent="False"></StartPageName>
+    <StartPageTimeout type="i" default="0" silent="False">0</StartPageTimeout>
+  </Gui2>
+  <LEDs>
+    <Enable type="i" min="0" max="1" default="1" silent="False">1</Enable>
+  </LEDs>
+  <LoadSheddingApi>
+    <DisconnectMargin type="i" default="300" silent="False">300</DisconnectMargin>
+    <MinSoc type="i" min="0" max="100" default="0" silent="False">0</MinSoc>
+    <Mode type="i" min="0" max="1" default="0" silent="False">0</Mode>
+    <PreparationTime type="i" default="3600" silent="False">3600</PreparationTime>
+    <ReconnectMargin type="i" default="1800" silent="False">1800</ReconnectMargin>
+    <Schedule>
+      <_0>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Start type="i" default="0" silent="False">0</Start>
+      </_0>
+      <_1>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Start type="i" default="0" silent="False">0</Start>
+      </_1>
+      <_2>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Start type="i" default="0" silent="False">0</Start>
+      </_2>
+      <_3>
+        <Duration type="i" default="0" silent="False">0</Duration>
+        <Start type="i" default="0" silent="False">0</Start>
+      </_3>
+    </Schedule>
+    <StabilityMargin type="i" default="60" silent="False">60</StabilityMargin>
+    <Token type="s" default="" silent="False"></Token>
+  </LoadSheddingApi>
+  <ModbusClient>
+    <tcp>
+      <AutoScan type="i" min="0" max="1" default="0" silent="False">0</AutoScan>
+      <Devices type="s" default="" silent="False"></Devices>
+    </tcp>
+  </ModbusClient>
+  <Network>
+    <VrmPortal type="i" min="0" max="2" default="2" silent="False">2</VrmPortal>
+  </Network>
+  <Relay>
+    <Function type="i" default="0" silent="False">2</Function>
+    <Polarity type="i" default="0" silent="False">0</Polarity>
+    <_0>
+      <InitialState type="i" min="0" max="1" default="0" silent="False">1</InitialState>
+    </_0>
+    <_1>
+      <Function type="i" default="2" silent="False">2</Function>
+      <InitialState type="i" min="0" max="1" default="0" silent="False">0</InitialState>
+      <Polarity type="i" default="0" silent="False">0</Polarity>
+    </_1>
+  </Relay>
+  <Services>
+    <AccessPoint type="i" min="0" max="1" default="1" silent="False">1</AccessPoint>
+    <BleSensors type="i" min="0" max="1" default="0" silent="False">0</BleSensors>
+    <Bluetooth type="i" min="0" max="1" default="1" silent="False">1</Bluetooth>
+    <Bol type="i" min="0" max="7" default="0" silent="False">0</Bol>
+    <Evcc type="i" min="0" max="1" default="1" silent="False">1</Evcc>
+    <InsecureDbusOverTcp type="i" min="0" max="1" default="0" silent="False">0</InsecureDbusOverTcp>
+    <Modbus type="i" min="0" max="1" default="0" silent="False">0</Modbus>
+    <MqttLocal type="i" min="0" max="1" default="0" silent="False">0</MqttLocal>
+    <NodeRed type="i" min="0" max="2" default="0" silent="False">0</NodeRed>
+    <SignalK type="i" min="0" max="1" default="0" silent="False">0</SignalK>
+    <Socketcand type="i" min="0" max="1" default="0" silent="False">0</Socketcand>
+  </Services>
+  <System>
+    <AccessLevel type="i" min="0" max="3" default="1" silent="False">2</AccessLevel>
+    <ActiveNetworkConnection type="i" min="-1" max="3" default="-1" silent="True">1</ActiveNetworkConnection>
+    <AutoUpdate type="i" min="0" max="3" default="2" silent="False">2</AutoUpdate>
+    <ImageType type="i" min="0" max="1" default="0" silent="False">0</ImageType>
+    <LogLevel type="i" default="2" silent="False">2</LogLevel>
+    <ModificationChecks>
+      <AllModificationsEnabled type="i" min="0" max="1" default="1" silent="False">1</AllModificationsEnabled>
+      <PreviousState>
+        <NodeRed type="i" min="0" max="2" default="0" silent="False">0</NodeRed>
+        <SignalK type="i" min="0" max="1" default="0" silent="False">0</SignalK>
+      </PreviousState>
+    </ModificationChecks>
+    <ReleaseType type="i" min="0" max="3" default="0" silent="False">0</ReleaseType>
+    <RemoteSupport type="i" min="0" max="1" default="0" silent="False">1</RemoteSupport>
+    <RemoteSupportIpAndPort type="s" default="0" silent="False">3.25.10.245;26891</RemoteSupportIpAndPort>
+    <SSHLocal type="i" min="0" max="1" default="0" silent="False">1</SSHLocal>
+    <SecurityProfile type="i" min="0" max="3" default="0" silent="False">2</SecurityProfile>
+    <TimeZone type="s" default="/UTC" silent="False">Australia/Sydney</TimeZone>
+    <Units>
+      <Altitude type="s" default="" silent="False"></Altitude>
+      <Distance type="s" default="" silent="False"></Distance>
+      <Temperature type="s" default="" silent="False"></Temperature>
+    </Units>
+    <VncLocal type="i" min="0" max="1" default="0" silent="False">1</VncLocal>
+    <VolumeUnit type="i" default="0" silent="False">1</VolumeUnit>
+  </System>
+  <SystemSetup>
+    <AcInput1 type="i" min="0" max="3" default="1" silent="False">3</AcInput1>
+    <AcInput2 type="i" min="0" max="3" default="0" silent="False">2</AcInput2>
+    <BatteryCurrentSense type="i" default="1" silent="False">1</BatteryCurrentSense>
+    <BatteryService type="s" default="default" silent="False">default</BatteryService>
+    <BmsInstance type="i" default="-1" silent="False">-1</BmsInstance>
+    <CanBmsSense type="i" min="0" max="1" default="0" silent="False">0</CanBmsSense>
+    <DvccControlAllMultis type="i" min="0" max="1" default="0" silent="False">0</DvccControlAllMultis>
+    <HasAcInLoads type="i" min="0" max="1" default="1" silent="False">1</HasAcInLoads>
+    <HasAcOutSystem type="i" min="0" max="1" default="1" silent="False">1</HasAcOutSystem>
+    <HasDcSystem type="i" min="0" max="1" default="0" silent="False">1</HasDcSystem>
+    <MaxChargeCurrent type="i" min="-1" max="10000" default="-1" silent="False">-1</MaxChargeCurrent>
+    <MaxChargeVoltage type="f" min="0.0" max="80.0" default="0.0" silent="False">0.0</MaxChargeVoltage>
+    <SharedTemperatureSense type="i" default="1" silent="False">1</SharedTemperatureSense>
+    <SharedVoltageSense type="i" default="1" silent="False">1</SharedVoltageSense>
+    <SystemName type="s" default="" silent="False"></SystemName>
+    <TemperatureService type="s" default="default" silent="False">default</TemperatureService>
+  </SystemSetup>
+  <Vebus>
+    <AllowMk3Fw212Update type="i" min="0" max="2" default="2" silent="False">2</AllowMk3Fw212Update>
+  </Vebus>
+  <Vecan>
+    <vecan0>
+      <FreeIdentityNumber type="i" min="0" max="500" default="0" silent="False">1</FreeIdentityNumber>
+      <MainInterface>
+        <Description2 type="s" default="" silent="False"></Description2>
+        <IdentityNumber type="i" min="0" max="500" default="0" silent="False">0</IdentityNumber>
+        <Instance type="i" min="0" max="252" default="0" silent="False">0</Instance>
+        <Nad type="i" min="0" max="251" default="225" silent="False">225</Nad>
+        <SystemInstance type="i" min="0" max="252" default="0" silent="False">0</SystemInstance>
+      </MainInterface>
+      <N2kGatewayEnabled type="i" min="0" max="1" default="0" silent="False">0</N2kGatewayEnabled>
+      <VenusUniqueId type="i" min="1" max="19" default="1" silent="False">1</VenusUniqueId>
+    </vecan0>
+  </Vecan>
+  <VenusApp>
+    <LockButtonState type="i" min="0" max="1" default="0" silent="False">0</LockButtonState>
+  </VenusApp>
+  <Vrmlogger>
+    <ExternalStorageDir type="s" default="" silent="False">/run/media/mmcblk0p1</ExternalStorageDir>
+    <HttpsEnabled type="i" min="0" max="1" default="1" silent="False">1</HttpsEnabled>
+    <LogInterval type="i" default="900" silent="False">900</LogInterval>
+    <RamDiskMode type="i" min="0" max="1" default="0" silent="False">0</RamDiskMode>
+    <Url type="s" default="" silent="False"></Url>
+  </Vrmlogger>
+  <Watchdog>
+    <VrmTimeout type="i" min="0" max="86400" default="0" silent="False">0</VrmTimeout>
+  </Watchdog>
+</Settings>
